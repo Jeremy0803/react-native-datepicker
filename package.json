@@ -1,0 +1,64 @@
+{
+  "name": "react-native-datepicker",
+  "version": "1.0.1",
+  "description": "React Native DatePicker component for both Android and iOS, useing DatePickerAndroid, TimePickerAndroid and RNDateTimePicker",
+  "main": "index.js",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "coverage": "cat ./coverage/lcov.info | coveralls",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeremy0803/react-native-datepicker.git"
+    
+  },
+  "keywords": [
+    "react-native",
+    "DatePicker"
+  ],
+  "author": "Jeremy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jeremy0803/react-native-datepicker/issues"
+  },
+  "homepage": "https://github.com/Jeremy0803/react-native-datepicker#readme",
+  "dependencies": {
+    "@react-native-community/datetimepicker": "^2.4.2",
+    "moment": "^2.22.0"
+
+  },
+  "publishConfig":{"registry": "https://npm.pkg.github.com"},
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/runtime": "^7.10.2",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.0.1",
+    "eslint": "^7.2.0",
+    "jest": "^26.0.1",
+    "jsdom": "^11.3.0",
+    "jsdom-global": "^3.0.2",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react": "16.11.0",
+    "react-native": "0.62.2",
+    "react-test-renderer": "16.11.0",
+    "babel-core": "^6.5.2",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-react-native": "4.0.0",
+    "coveralls": "^2.11.9",
+    "cz-conventional-changelog": "^1.2.0",
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.0.2",
+    "eslint-plugin-react": "^7.0.1",
+    "inquirer": "^3.0.5",
+    "pre-commit": "^1.1.3",
+    "react-dom": "16.11.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
